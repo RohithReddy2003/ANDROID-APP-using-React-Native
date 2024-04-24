@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { View, Button, TextInput } from 'react-native';
 import MapView, { Circle, Marker } from 'react-native-maps';
 
-const API_KEY = 'ArablP1SZqKhTWKq7-EHSkoo3MNsHnMfOpd_HWGwwas2l8V0p_wMwpHPNG7_n37_';
+const API_KEY = '';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const GeofenceMap = () => {
   const [address, setAddress] = useState('');
