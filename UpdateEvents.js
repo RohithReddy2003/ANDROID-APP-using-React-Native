@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import axios from 'axios';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const UpdateEvent = ({ route }) => {
   const { eventId } = route.params;
