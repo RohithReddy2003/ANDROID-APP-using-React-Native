@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, TextInput, Button, Alert , StyleSheet, Text,Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const LoginScreen = () => {
   const [email, setEmail] = useState('');
