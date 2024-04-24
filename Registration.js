@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet, Text } from 'react-native';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const Enroll = () => {
   const [formData, setFormData] = useState({
