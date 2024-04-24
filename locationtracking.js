@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const Attendeelocation = () => {
   const [insideGeofenceEmails, setInsideGeofenceEmails] = useState([]);
