@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Button , ScrollView} from 'react-native';
 import axios from 'axios';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const EventDetails = ({ route }) => {
   const { event } = route.params;
