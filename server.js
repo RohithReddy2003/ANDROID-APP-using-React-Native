@@ -6,10 +6,10 @@ const qrcode = require('qrcode');
 const nodemailer = require('nodemailer');
 
 const app = express();
-const port = 5000;
+const port = //input the port number;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/Eventtrackers', {
+mongoose.connect('place mongodb connection string', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
@@ -310,14 +310,14 @@ app.post('/sendqrcodeemail', async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'vvrvuppuluri@gmail.com',
-        pass: 'ywlofhhiyjtzudkr',
+        user: '',
+        pass: '',
       },
     });
 
     // Compose email message
     const mailOptions = {
-      from: 'vvrvuppuluri@gmail.com',
+      from: '',
       to: email,
       subject: 'QR Code',
       html: `<p>Here is your QR code invitation:</p>`, //converting the QRCode from string to Image
