@@ -1,7 +1,3 @@
-//react-native-camera: This package provides access to the device's camera and allows you to scan QR codes.
-//react-native-qrcode-svg: This package is used to generate SVG representations of the scanned QR codes.
-/*expo-barcode-scanner provides a React component that renders a viewfinder for the device's camera (either front or back) and will scan bar codes that show up in the frame. */
-
 import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
