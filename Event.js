@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 import * as Location from 'expo-location';
 
-const URL = 'http://192.168.1.6:5000'; // Define the URL constant
+const URL = ''; // Define the URL constant
 
 const EventList = ({ route }) => {
   const [events, setEvents] = useState([]);
